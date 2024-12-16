@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio de musica</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo">
+      <img id="logo_estudio" src="./img/Logo.png" alt="">
+    </div>
+
+    <ul>
+      <li> <a href="" class="active">Inicio</a></li>
+      <li> <a href="./estudios.html">Estudios</a></li>
+      <li> <a href="">Artistas</a>
+      <li> <a href="">Tienda</a>
+      <li> <a href="">Sobre nosotros</a></li>
+    </ul>
+
+    <div class="menu">
+      <label for="chk1">
+        <i class="fa fa-bars"></i>
+      </label>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Carrusel Principal -->
+    <div class="carrusel_main">
+      <div class="carrusel fade" style="display: block;">
+        <img src="./img/carrusel1/banner1.jpg" alt="">
+        <div class="img-overlay">
+          <h1>Nueva Oferta</h1>
+          <div class="text1">20% <span id="text2">de descuento</span></div>
+          <h3>en su primera visita al Estudio A</h3>
+          <br/>
+          <a id="btn-acceder" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+      <div class="carrusel fade">
+        <img src="./img/carrusel1/banner2.jpg" alt="">
+        <div class="img-overlay">
+          <h1>ESTUDIO B</h1>
+          <h3>produce con nosotros</h3>
+          <div class="text3">los mejores <span id="text4">sonidos electrónicos</span></div>
+          <br/>
+          <a id="btn-acceder1" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+      <div class="carrusel fade">
+        <img src="./img/carrusel1/Bnner3.jpg" alt="">
+        <div class="img-overlay">
+          <h1>ESTUDIO C</h1>
+          <h3>experimenta al máximo</h3>
+          <div class="text5">en <span id="text6">calidad musical</span></div>
+          <br/>
+          <a id="btn-acceder2" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+
+      <a class="prev_carrusel_main" onclick="plusSlide(-1)">&#10094;</a>
+      <a class="next_carrusel_main" onclick="plusSlide(1)">&#10095;</a>
+      
+      <div class="dotsbox">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <div class="electra_estudios">Electra Estudios</div>
+      
+    <div class="electra_estudio_text">
+      Electra Estudios es un estudio de grabación musical de vanguardia
+      especializado
+      <br />
+      en la producción de música electropop. Con una combinación única de
+      creatividad y tecnología
+      <br />
+      de vanguardia, aquí nos dedicamos a capturar la esencia y energía del
+      electropop para llevarla
+      <br />
+      al siguiente nivel.
+    </div>
+
+    <a id="btn_ver_mas" href="#">Ver más</a>
+
+    <!-- Carrusel que se muestra en medio de la pagina de inicio -->
+    <div class="carrusel_middle">
+      <div class="carrusel1 fade" style="display: block;">
+        <img src="./img/carrusel2/Group 22.png" alt="">
+      </div>
+      <div class="carrusel1 fade">
+        <img src="./img/carrusel2/Group 25.png" alt="">
+        <div class="carrusel_middle_text">
+          <span class="cm_text1">Vive</span>
+          <div class="cm_text2">Experiencias <span id="cm_text3">únicas</span></div>
+          <span class="cm_text4">con los mejores productores</span>
+        </div>
+      </div>
+      <div class="carrusel1 fade">
+        <img src="./img/carrusel2/Group 26.png" alt="">
+        <div class="carrusel_middle_text">
+          <span class="cm_text1">Disfruta</span>
+          <div class="cm_text2">las <span id="cm_text5">mejores</span> tecnologías</div>
+          <span class="cm_text4">de grabación</span>
+        </div>
+      </div>
+      <div class="carrusel1 fade">
+        <img src="./img/carrusel2/Group 27.png" alt="">
+        <div class="carrusel_middle_text">
+          <span class="cm_text6">Experimenta</span>
+          <div class="cm_text7">tu poder vocal</div>
+          <span class="cm_text8">sin límites</span>
+        </div>
+      </div>
+      <div class="carrusel1 fade">
+        <img src="./img/carrusel2/Group 28.png" alt="">
+        <div class="carrusel_middle_text1">
+          <span class="cm_text9">Conoce</span>
+          <div class="cm_text10">a nuestras empoderadas</div>
+          <div class="cm_text10">artistas <span id="cm_text11">eléctricas</span></div>
+        </div>
+      </div>
+
+      <a class="prev_carrusel_middle" onclick="plusSlideCarruselMiddle(-1)">&#10094;</a>
+      <a class="next_carrusel_middle" onclick="plusSlideCarruselMiddle(1)">&#10095;</a>
+
+      <a id="btn_artistas" href="#">Nuestros Artistas</a>
+    </div>
+      
+    <div class="videos">
+      <div class="electra-estudios2">Últimos videos</div>
+
+      <div class="video1" >
+        <img src="./img/videos/Group 29.png" alt="">
+        <a href="https://youtu.be/oC-GflRB0y4"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="video2" >
+        <img src="./img/videos/Group 30.png" alt="">
+        <i class="fa-brands fa-youtube"></i>
+        <a href="https://youtu.be/Qcab203TiEA"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="video3" >
+        <img src="./img/videos/Group 31.png" alt="">
+        <i class="fa-brands fa-youtube"></i>
+        <a href="https://youtu.be/PNu_-deVemE"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="electra-contacto">Contacto: 58893629 </div>
+    <div class="electra-direccion">Electra Estudios l Cuba, La Habana, Vedado</div>
+    <div class="electra-direccion-1">33 entre K y L</div>
+    <div class="siguenos">Síguenos en</div>
+    <div class="icons_redes_sociales">
+      <a href="#"><i class="fa-brands fa-facebook" id="icon_f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" id="icon_i"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter" id="icon_x"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube" id="icon_y"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script_carrusel_main.js"></script>
+  <script src="js/script_carrusel_middle.js"></script>
+</body>
+</html>

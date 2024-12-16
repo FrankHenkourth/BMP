@@ -1,0 +1,72 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --rojo: #b8272d;
+  --carmelita: #603400;
+
+  /* Fonts */
+  --menu-inferior-font-family: Inter-Regular, sans-serif;
+  --menu-inferior-font-size: 10px;
+  --menu-inferior-line-height: normal;
+  --menu-inferior-font-weight: 400;
+  --menu-inferior-font-style: normal;
+  --subtitulo-font-family: Inter-Bold, sans-serif;
+  --subtitulo-font-size: 12px;
+  --subtitulo-line-height: normal;
+  --subtitulo-font-weight: 700;
+  --subtitulo-font-style: normal;
+  --ver-mas-font-family: Inter-Light, sans-serif;
+  --ver-mas-font-size: 12px;
+  --ver-mas-line-height: normal;
+  --ver-mas-font-weight: 300;
+  --ver-mas-font-style: normal;
+  --placeholder-font-family: Inter-Medium, sans-serif;
+  --placeholder-font-size: 9px;
+  --placeholder-line-height: normal;
+  --placeholder-font-weight: 500;
+  --placeholder-font-style: normal;
+  --pestanas-comunidad-font-family: Inter-Bold, sans-serif;
+  --pestanas-comunidad-font-size: 12px;
+  --pestanas-comunidad-line-height: normal;
+  --pestanas-comunidad-font-weight: 700;
+  --pestanas-comunidad-font-style: normal;
+  --tarjeta-de-recomendados-nombre-del-canal-o-usuario-font-family: Inter-Medium,
+    sans-serif;
+  --tarjeta-de-recomendados-nombre-del-canal-o-usuario-font-size: 10px;
+  --tarjeta-de-recomendados-nombre-del-canal-o-usuario-line-height: 120%;
+  --tarjeta-de-recomendados-nombre-del-canal-o-usuario-font-weight: 500;
+  --tarjeta-de-recomendados-nombre-del-canal-o-usuario-font-style: normal;
+  --tarjeta-de-recomendados-boton-seguir-font-family: Inter-Bold, sans-serif;
+  --tarjeta-de-recomendados-boton-seguir-font-size: 11px;
+  --tarjeta-de-recomendados-boton-seguir-line-height: normal;
+  --tarjeta-de-recomendados-boton-seguir-font-weight: 700;
+  --tarjeta-de-recomendados-boton-seguir-font-style: normal;
+  --tarjeta-del-ranking-etiquetas-font-family: Inter-Medium, sans-serif;
+  --tarjeta-del-ranking-etiquetas-font-size: 8px;
+  --tarjeta-del-ranking-etiquetas-line-height: normal;
+  --tarjeta-del-ranking-etiquetas-font-weight: 500;
+  --tarjeta-del-ranking-etiquetas-font-style: normal;
+  --tarjeta-del-ranking-numeros-font-family: Inter-Bold, sans-serif;
+  --tarjeta-del-ranking-numeros-font-size: 20px;
+  --tarjeta-del-ranking-numeros-line-height: normal;
+  --tarjeta-del-ranking-numeros-font-weight: 700;
+  --tarjeta-del-ranking-numeros-font-style: normal;
+  --tarjeta-del-ranking-nombre-font-family: Inter-Bold, sans-serif;
+  --tarjeta-del-ranking-nombre-font-size: 12px;
+  --tarjeta-del-ranking-nombre-line-height: normal;
+  --tarjeta-del-ranking-nombre-font-weight: 700;
+  --tarjeta-del-ranking-nombre-font-style: normal;
+  --tarjeta-del-ranking-numero-del-ranking-font-family: Inter-Bold, sans-serif;
+  --tarjeta-del-ranking-numero-del-ranking-font-size: 16px;
+  --tarjeta-del-ranking-numero-del-ranking-line-height: normal;
+  --tarjeta-del-ranking-numero-del-ranking-font-weight: 700;
+  --tarjeta-del-ranking-numero-del-ranking-font-style: normal;
+  --tarjeta-de-logos-de-la-comunidad-cantidades-font-family: Inter-Medium,
+    sans-serif;
+  --tarjeta-de-logos-de-la-comunidad-cantidades-font-size: 12px;
+  --tarjeta-de-logos-de-la-comunidad-cantidades-line-height: normal;
+  --tarjeta-de-logos-de-la-comunidad-cantidades-font-weight: 500;
+  --tarjeta-de-logos-de-la-comunidad-cantidades-font-style: normal;
+
+  /* Effects */
+}

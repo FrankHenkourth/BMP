@@ -1,0 +1,13 @@
+.menu-section-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(0, 50%));
+    row-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu-section-2 {
+    display: flex;
+    flex-direction: row;
+  }
+}

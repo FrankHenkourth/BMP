@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio de musica</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo">
+      <img id="logo_estudio" src="./img/Logo.png" alt="">
+    </div>
+
+    <ul>
+      <li> <a href="./index.html">Inicio</a></li>
+      <li> <a href="" class="active">Estudios</a></li>
+      <li> <a href="">Artistas</a>
+      <li> <a href="">Tienda</a>
+      <li> <a href="">Sobre nosotros</a></li>
+    </ul>
+
+    <div class="menu">
+      <label for="chk1">
+        <i class="fa fa-bars"></i>
+      </label>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Carrusel Principal -->
+    <div class="carrusel_main">
+      <div class="carrusel fade" style="display: block;">
+        <img src="./img/carrusel1/banner1.jpg" alt="">
+        <div class="img-overlay">
+          <h1>Nueva Oferta</h1>
+          <div class="text1">20% <span id="text2">de descuento</span></div>
+          <h3>en su primera visita al Estudio A</h3>
+          <br/>
+          <a id="btn-acceder" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+      <div class="carrusel fade">
+        <img src="./img/carrusel1/banner2.jpg" alt="">
+        <div class="img-overlay">
+          <h1>ESTUDIO B</h1>
+          <h3>produce con nosotros</h3>
+          <div class="text3">los mejores <span id="text4">sonidos electrónicos</span></div>
+          <br/>
+          <a id="btn-acceder1" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+      <div class="carrusel fade">
+        <img src="./img/carrusel1/Bnner3.jpg" alt="">
+        <div class="img-overlay">
+          <h1>ESTUDIO C</h1>
+          <h3>experimenta al máximo</h3>
+          <div class="text5">en <span id="text6">calidad musical</span></div>
+          <br/>
+          <a id="btn-acceder2" href="#"><i class="fa-solid fa-bolt"></i> Acceder</a>
+        </div>
+      </div>
+
+      <a class="prev_carrusel_main" onclick="plusSlide(-1)">&#10094;</a>
+      <a class="next_carrusel_main" onclick="plusSlide(1)">&#10095;</a>
+      
+      <div class="dotsbox">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <div class="estudios">ESTUDIOS</div>
+
+    <div class="estudio_img">
+      <div class="estudio_a_img">
+        <img src="./img/Estudio/Estudio A.png" alt="">
+        <a id="btn_estudio_a" href="#">Estudio A</a>
+      </div>
+      <div class="estudio_b_img">
+        <img src="./img/Estudio/Estudios B.png" alt="">
+        <a id="btn_estudio_b" href="#">Estudio B</a>
+      </div>
+      <div class="estudio_c_img">
+        <img src="./img/Estudio/Estudios C.png" alt="">
+        <a id="btn_estudio_c" href="#">Estudio C</a>
+      </div>
+    </div>
+
+    <div class="estudio_txt">
+      <div class="estudio_a_txt">
+        <span>
+          Nuestro estudio musical está equipado con los mejores micrófonos, consolas
+          de mezcla y monitores de estudio, garantizamos un sonido impecable en cada
+          grabación. Nuestro equipo técnico, compuesto por ingenieros de sonido y
+          productores experimentados, asegura un proceso de grabación profesional y
+          eficiente. El diseño acústico de nuestras instalaciones, creado por
+          expertos en acústica, proporciona un ambiente óptimo para la creación
+          musical. ¡Únete a nosotros y lleva tu música al siguiente nivel!
+        </span>
+      </div>
+      <div class="estudio_b_txt">
+        <span>
+          El Estudio B es reconocido por su compromiso con la calidad en el
+          desarrollo de sus tecnologías. El equipo de trabajo que lo conforma está
+          compuesto por profesionales altamente capacitados y especializados en
+          diversas áreas, lo que permite abordar de manera integral cada proyecto.
+          Una de las tecnologías de calidad que destacan en el estudio es el uso de
+          metodologías ágiles en el desarrollo de software. Esto permite una mayor
+          flexibilidad y adaptabilidad a los cambios durante el proceso de
+          desarrollo.
+        </span>
+      </div>
+      <div class="estudio_c_txt">
+        <span>
+          El Estudio C es reconocido por su enfoque en el desarrollo de tecnologías
+          de calidad, especialmente en el ámbito de las mezclas innovadoras. El
+          equipo de trabajo que conforma este estudio está compuesto por
+          profesionales altamente especializados y apasionados por la creación de
+          soluciones únicas y disruptivas. El Estudio C se mantiene actualizado en
+          las últimas tendencias y avances tecnológicos en el campo de las mezclas
+          innovadoras, lo que les permite ofrecer a sus clientes soluciones
+          vanguardistas.
+        </span>
+      </div>
+    </div>
+    
+  </div>
+
+  <footer class="footer">
+    <div class="electra-contacto">Contacto: 58893629 </div>
+    <div class="electra-direccion">Electra Estudios l Cuba, La Habana, Vedado</div>
+    <div class="electra-direccion-1">33 entre K y L</div>
+    <div class="siguenos">Síguenos en</div>
+    <div class="icons_redes_sociales">
+      <a href="#"><i class="fa-brands fa-facebook" id="icon_f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" id="icon_i"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter" id="icon_x"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube" id="icon_y"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script_carrusel_main.js"></script>
+</body>
+</html>
